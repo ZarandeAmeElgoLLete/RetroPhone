@@ -166,12 +166,13 @@ h2 {
 
 .top-button {
   width: 95%;
-  height: 35%;
+  height: 40%;
+  margin-bottom: 5px;
 }
 
 .bottom-button {
   width: 95%;
-  height: 50%;
+  height: 60%;
 }
 
 .commands-button {
@@ -230,8 +231,8 @@ h2 {
 }
 
 .digits {
-  width: 95%;
-  height: 95%;
+  width: 80%;
+  height: 80%;
   margin: auto;
   background: radial-gradient(
     #a5a897 50%,
