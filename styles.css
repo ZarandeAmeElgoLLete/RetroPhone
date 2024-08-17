@@ -137,6 +137,7 @@ h2 {
     #7b8071
   );
   border: 0.5px solid #cbd3bb;
+  box-shadow: 2px 2px 2px 2px #1d1d1d;
 }
 
 .central-button {
@@ -151,6 +152,7 @@ h2 {
   margin: 0 auto;
   position: relative;
   top: calc(50% - 10px);
+  box-shadow: 1px 1px 1px 1px #1d1d1d;
 }
 
 .right-buttons, .left-buttons {
@@ -187,6 +189,7 @@ h2 {
 
 .top-button > button, .bottom-button > button {
   cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #1d1d1d;
 }
 
 .inner-central-buttons {
@@ -237,6 +240,7 @@ h2 {
   border: 1.5px solid #cbd3bb;
   border-radius: 30%;
   cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #1d1d1d;
 }
 
 .clicked {
