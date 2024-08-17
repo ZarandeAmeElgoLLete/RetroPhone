@@ -53,7 +53,7 @@ h2 {
     #405011,
     #537814
   );
-  box-shadow: 0 0 2px #537814;
+  box-shadow: 0 0 2px 3px #537814;
   width: 70%;
   height: 75%;
   margin: auto;
