@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Telephone Number Validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Telephone Number Validator</h2>
+      <div class="telephone">
+        <div class="speaker">....</div>
+        <div class="telephone-frame"></div>
+        <div class="telephone-top">
+          <div id="screen" class="screen">
+            <form>
+              <label for="user-input">Enter a Phone Number</label>
+              <input id="user-input" type="text" placeholder="e.g. 1 555-555-5555" />
+              <div id="results-div"></div>
+            </form>
+          </div>
+        </div>
+        <div class="telephone-bottom">
+          <span class="before"></span>
+          <span class="after"></span>
+          <div class="commands">
+            <div class="left-buttons">
+              <div class="top-button">
+                <button input class="commands-button" type="button" id="reset-input">reset</button>
+              </div>
+              <div class="bottom-button">
+                <button class="commands-button" type="button" id="delete-char">←</button>
+              </div>
+            </div> 
+            <div class="central-buttons">
+              <div class="inner-central-buttons" id="top-central-button">↑</div>
+              <div class="central-button"></div>
+              <div class="inner-central-buttons" id="bottom-central-button">↓</div>
+            </div>
+            <div class="right-buttons">
+              <div class="top-button">
+                <button class="commands-button" type="button" id="clear-btn" value="clear">Clear</button>
+              </div>
+              <div class="bottom-button">
+                <button class="commands-button" type="button" id="check-btn">Ok</button>
+              </div>
+            </div> 
+          </div>
+          <div class="keyboard">
+            <input class="digits" type="button" id="1" value="1" />
+            <input class="digits" type="button" id="2" value="2" />
+            <input class="digits" type="button" id="3" value="3" />
+            <input class="digits" type="button" id="4" value="4" />
+            <input class="digits" type="button" id="5" value="5" />
+            <input class="digits" type="button" id="6" value="6" />
+            <input class="digits" type="button" id="7" value="7" />
+            <input class="digits" type="button" id="8" value="8" />
+            <input class="digits" type="button" id="9" value="9" />
+            <input class="digits" type="button" id="(/)" value="(/)" />
+            <input class="digits" type="button" id="0" value="0" />
+            <input class="digits" type="button" id="-/ " value="-/s" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
